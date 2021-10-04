@@ -1,0 +1,25 @@
+# Import pre-defined defaults.
+BasedOnStyle: Mozilla
+ 
+# Indent by 4 spaces instead of 2, and update all indentations to match.
+AccessModifierOffset: -4
+ConstructorInitializerIndentWidth: 4
+ContinuationIndentWidth: 4
+IndentWidth: 4
+TabWidth: 4
+ 
+# Add comments to mark the closing brace of each namespace.
+FixNamespaceComments: true
+ 
+# If braces are being used for initializer lists, format them without extra spaces.
+Cpp11BracedListStyle: true
+ 
+# Allow lines up to 120 characters.
+ColumnLimit: 120
+ 
+# Don't put a line break between a top-level function's return type and its name.
+AlwaysBreakAfterDefinitionReturnType: None
+AlwaysBreakAfterReturnType: None
+
+SortIncludes: false
+SortUsingDeclarations: false

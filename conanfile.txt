@@ -1,0 +1,10 @@
+[requires]
+benchmark/1.6.0
+boost/1.77.0
+docopt.cpp/0.6.3
+fmt/8.0.1
+gtest/1.11.0
+spdlog/1.9.2
+
+[generators]
+cmake
